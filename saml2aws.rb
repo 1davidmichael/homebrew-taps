@@ -1,10 +1,10 @@
 require 'formula'
 
 class Saml2aws < Formula
-  homepage 'https://github.com/versent/saml2aws'
-  url 'https://github.com/Versent/saml2aws/releases/download/v2.10.0/saml2aws_2.10.0_darwin_amd64.tar.gz'
-  version '2.10.0'
-  sha256 '515f905ebc73b684e3e68b0a30089bf99a0b1ef792c3de24547179778b9b2792'
+  homepage 'https://github.com/meredith-digops/saml2aws/'
+  url 'https://github.com/meredith-digops/saml2aws/releases/download/v2.11.0-legacy-time-rsa/saml2aws_2.11.0-legacy-time-rsa_darwin_amd64.tar.gz'
+  version '2.11.0'
+  sha256 'af6fcd4f219394cb472f1635130322ab06c26ef2296b86b9deeecfe5801fe8cf'
 
   depends_on :arch => :x86_64
 
